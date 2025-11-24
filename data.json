@@ -1,305 +1,329 @@
 [
   {
-    "nome": "TypeScript",
-    "descricao": "Um superset tipado de JavaScript que compila para JavaScript puro. Adiciona tipagem estática opcional, melhorando a manutenibilidade de grandes bases de código.",
-    "data_criacao": "2012",
-    "link": "https://www.typescriptlang.org/",
+    "nome": "Grand Theft Auto: San Andreas",
+    "descricao": "Conhecido pela escala massiva do mapa e pela controvérsia do mod 'Hot Coffee', que revelava conteúdo sexual oculto e forçou a reclassificação do jogo.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/d/d3/Grand_Theft_Auto_San_Andreas_capa.png/250px-Grand_Theft_Auto_San_Andreas_capa.png",
+    "data_criacao": "2004",
+    "link": "https://pt.wikipedia.org/wiki/Grand_Theft_Auto:_San_Andreas",
     "tags": [
-      "Linguagem de Programação",
-      "Superset",
-      "Frontend",
-      "Backend",
-      "Microsoft"
+      "PS2",
+      "Mundo Aberto",
+      "Ação-Aventura",
+      "Xbox",
+      "Controvérsia"
     ]
   },
   {
-    "nome": "Go (Golang)",
-    "descricao": "Linguagem de programação compilada, desenvolvida pela Google, focada em simplicidade, eficiência e concorrência (goroutines). Excelente para desenvolvimento de backend e microsserviços.",
-    "data_criacao": "2009",
-    "link": "https://golang.org/",
+    "nome": "Metal Gear Solid 3: Snake Eater",
+    "descricao": "Ambientado em 1964 durante a Guerra Fria, focando em elementos de sobrevivência e camuflagem. Sua cena final de luta contra The Boss é considerada uma das mais emocionantes da história dos games.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/4/44/Metal_Gear_Solid_3_capa.png/330px-Metal_Gear_Solid_3_capa.png",
+    "data_criacao": "2004",
+    "link": "https://pt.wikipedia.org/wiki/Metal_Gear_Solid_3:_Snake_Eater",
     "tags": [
-      "Linguagem de Programação",
-      "Backend",
-      "Sistemas",
-      "Concorrência"
+      "PS2",
+      "Stealth",
+      "Sobrevivência",
+      "Hideo Kojima"
     ]
   },
   {
-    "nome": "Rust",
-    "descricao": "Linguagem de programação focada em segurança, performance e concorrência, garantindo segurança de memória sem a necessidade de um coletor de lixo.",
-    "data_criacao": "2010",
-    "link": "https://www.rust-lang.org/",
+    "nome": "Halo: Combat Evolved",
+    "descricao": "O jogo que lançou o Xbox e popularizou o esquema de controle de tiro em primeira pessoa (FPS) de dois sticks nos consoles, definindo o padrão para o gênero.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg/250px-Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg",
+    "data_criacao": "2001",
+    "link": "https://pt.wikipedia.org/wiki/Halo:_Combat_Evolved",
     "tags": [
-      "Linguagem de Programação",
-      "Sistemas",
-      "Performance",
-      "Segurança"
+      "Xbox",
+      "FPS",
+      "Sci-Fi",
+      "Multiplayer"
     ]
   },
   {
-    "nome": "Kotlin",
-    "descricao": "Linguagem de programação moderna e pragmática que roda na JVM. É a linguagem preferida para o desenvolvimento Android e popular em aplicações backend.",
-    "data_criacao": "2011",
-    "link": "https://kotlinlang.org/",
+    "nome": "The Legend of Zelda: The Wind Waker",
+    "descricao": "Inicialmente criticado por seu estilo de arte cel-shading 'cartunesco', o jogo envelheceu extremamente bem, sendo aclamado por suas expressões vívidas e design atemporal.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/0/06/The_Legend_of_Zelda_The_Wind_Waker_capa.png/330px-The_Legend_of_Zelda_The_Wind_Waker_capa.png",
+    "data_criacao": "2002",
+    "link": "https://pt.wikipedia.org/wiki/The_Legend_of_Zelda:_The_Wind_Waker",
     "tags": [
-      "Linguagem de Programação",
-      "JVM",
-      "Android",
-      "Backend"
+      "GameCube",
+      "Ação-Aventura",
+      "Cel-Shading",
+      "Nintendo"
     ]
   },
   {
-    "nome": "React",
-    "descricao": "Biblioteca para a construção de interfaces de usuário baseada em componentes, desenvolvida e mantida pelo Facebook (Meta).",
-    "data_criacao": "2013",
-    "link": "https://reactjs.org/",
-    "tags": [
-      "Biblioteca",
-      "Frontend",
-      "UI/UX",
-      "Componentes"
-    ]
-  },
-  {
-    "nome": "Vue.js",
-    "descricao": "Framework progressivo de código aberto para a construção de interfaces de usuário e Single-Page Applications (SPA).",
-    "data_criacao": "2014",
-    "link": "https://vuejs.org/",
-    "tags": [
-      "Framework",
-      "Frontend",
-      "Desenvolvimento Web",
-      "SPA"
-    ]
-  },
-  {
-    "nome": "Angular",
-    "descricao": "Framework robusto e completo, mantido pelo Google, para construir aplicações web complexas e escaláveis, geralmente utilizando TypeScript.",
-    "data_criacao": "2016",
-    "link": "https://angular.io/",
-    "tags": [
-      "Framework",
-      "Frontend",
-      "Google",
-      "TypeScript",
-      "SPA"
-    ]
-  },
-  {
-    "nome": "Node.js",
-    "descricao": "Ambiente de execução (runtime) que permite executar código JavaScript no lado do servidor. Fundamental para desenvolvimento de backend e APIs eficientes.",
-    "data_criacao": "2009",
-    "link": "https://nodejs.org/en/",
-    "tags": [
-      "Runtime",
-      "Backend",
-      "Servidores",
-      "Assíncrono"
-    ]
-  },
-  {
-    "nome": "Spring Boot",
-    "descricao": "Framework baseado em Java que simplifica a criação de aplicações Spring independentes e prontas para produção, focado em microserviços.",
-    "data_criacao": "2014",
-    "link": "https://spring.io/projects/spring-boot",
-    "tags": [
-      "Framework",
-      "Backend",
-      "Microserviços",
-      "Java"
-    ]
-  },
-  {
-    "nome": "Django",
-    "descricao": "Framework de alto nível para desenvolvimento web que incentiva o desenvolvimento rápido e design limpo e pragmático (DRY - Don't Repeat Yourself).",
+    "nome": "Resident Evil 4",
+    "descricao": "Revolucionou o gênero survival horror (e os jogos de ação em geral) ao introduzir a câmera sobre o ombro, mudando o foco de sustos lentos para combate dinâmico e tenso.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/9/91/Resident_Evil_4_-_North-american_cover.jpg/255px-Resident_Evil_4_-_North-american_cover.jpg",
     "data_criacao": "2005",
-    "link": "https://www.djangoproject.com/",
+    "link": "https://pt.wikipedia.org/wiki/Resident_Evil_4",
     "tags": [
-      "Framework",
-      "Backend",
-      "Web Development",
-      "ORM"
+      "Survival Horror",
+      "GameCube",
+      "Ação",
+      "Capcom",
+      "Terceira Pessoa"
     ]
   },
   {
-    "nome": "PostgreSQL",
-    "descricao": "Poderoso sistema de gerenciamento de banco de dados relacional de código aberto, conhecido por sua robustez e conformidade com padrões SQL.",
-    "data_criacao": "1996",
-    "link": "https://www.postgresql.org/",
-    "tags": [
-      "Banco de Dados",
-      "SQL",
-      "Relacional",
-      "Open Source"
-    ]
-  },
-  {
-    "nome": "MongoDB",
-    "descricao": "Banco de dados NoSQL baseado em documentos, conhecido por sua flexibilidade e escalabilidade horizontal, armazenando dados em formato BSON (JSON binário).",
-    "data_criacao": "2009",
-    "link": "https://www.mongodb.com/",
-    "tags": [
-      "Banco de Dados",
-      "NoSQL",
-      "Documentos",
-      "Escalabilidade"
-    ]
-  },
-  {
-    "nome": "Docker",
-    "descricao": "Plataforma que permite a criação, implantação e execução de aplicações em contêineres, facilitando a portabilidade e consistência entre ambientes.",
-    "data_criacao": "2013",
-    "link": "https://www.docker.com/",
-    "tags": [
-      "Contêineres",
-      "DevOps",
-      "Virtualização",
-      "Ferramenta"
-    ]
-  },
-  {
-    "nome": "Kubernetes (K8s)",
-    "descricao": "Sistema open-source para automação de implantação, dimensionamento e gerenciamento de aplicações em contêineres.",
-    "data_criacao": "2014",
-    "link": "https://kubernetes.io/",
-    "tags": [
-      "Orquestração",
-      "Contêineres",
-      "Cloud Computing",
-      "DevOps"
-    ]
-  },
-  {
-    "nome": "Terraform",
-    "descricao": "Ferramenta de Infraestrutura como Código (IaC) que permite definir e provisionar infraestrutura em nuvem e on-premise usando arquivos de configuração declarativos.",
-    "data_criacao": "2014",
-    "link": "https://www.terraform.io/",
-    "tags": [
-      "Infraestrutura como Código",
-      "DevOps",
-      "Nuvem",
-      "Provisionamento"
-    ]
-  },
-  {
-    "nome": "AWS Lambda",
-    "descricao": "Serviço de computação sem servidor (Serverless) da Amazon Web Services (AWS) que executa código em resposta a eventos sem provisionar ou gerenciar servidores.",
-    "data_criacao": "2014",
-    "link": "https://aws.amazon.com/lambda/",
-    "tags": [
-      "Serverless",
-      "Cloud Computing",
-      "FaaS",
-      "AWS"
-    ]
-  },
-  {
-    "nome": "GraphQL",
-    "descricao": "Linguagem de consulta e manipulação de dados para APIs, oferecendo uma alternativa eficiente ao REST, permitindo ao cliente solicitar apenas os dados necessários.",
-    "data_criacao": "2015",
-    "link": "https://graphql.org/",
-    "tags": [
-      "API",
-      "Linguagem de Consulta",
-      "Backend",
-      "Meta"
-    ]
-  },
-  {
-    "nome": "Kafka",
-    "descricao": "Plataforma distribuída de streaming de eventos projetada para lidar com grandes volumes de dados em tempo real, frequentemente usada para arquiteturas de microsserviços.",
-    "data_criacao": "2011",
-    "link": "https://kafka.apache.org/",
-    "tags": [
-      "Streaming",
-      "Mensageria",
-      "Big Data",
-      "Tempo Real"
-    ]
-  },
-  {
-    "nome": "Redis",
-    "descricao": "Banco de dados em memória, de código aberto, usado como cache, message broker e armazenamento primário, suportando diversas estruturas de dados.",
-    "data_criacao": "2009",
-    "link": "https://redis.io/",
-    "tags": [
-      "Banco de Dados",
-      "Cache",
-      "In-Memory",
-      "NoSQL"
-    ]
-  },
-  {
-    "nome": "Flutter",
-    "descricao": "Kit de desenvolvimento de UI de código aberto do Google para a criação de aplicações compiladas nativamente para mobile, web e desktop a partir de um único código-fonte (linguagem Dart).",
-    "data_criacao": "2017",
-    "link": "https://flutter.dev/",
-    "tags": [
-      "Framework",
-      "Desenvolvimento Mobile",
-      "Multiplataforma",
-      "Google"
-    ]
-  },
-  {
-    "nome": "Next.js",
-    "descricao": "Framework React full-stack que permite Server-Side Rendering (SSR), Static Site Generation (SSG) e outras otimizações de performance.",
-    "data_criacao": "2016",
-    "link": "https://nextjs.org/",
-    "tags": [
-      "Framework",
-      "Frontend",
-      "SSR",
-      "React",
-      "Full-stack"
-    ]
-  },
-  {
-    "nome": "Svelte",
-    "descricao": "Framework/compilador que move o trabalho reativo para a etapa de compilação, gerando código Vanilla JS pequeno e eficiente, sem o overhead de bibliotecas de tempo de execução.",
-    "data_criacao": "2016",
-    "link": "https://svelte.dev/",
-    "tags": [
-      "Framework",
-      "Frontend",
-      "Compilador",
-      "Reatividade"
-    ]
-  },
-  {
-    "nome": "Git",
-    "descricao": "Sistema de controle de versão distribuído (DVCS) projetado para lidar com tudo, desde pequenos a grandes projetos com velocidade e eficiência.",
+    "nome": "Shadow of the Colossus",
+    "descricao": "Um jogo com design minimalista, onde a única missão é caçar e derrotar 16 criaturas gigantescas, conhecidas como Colossi, em um vasto mundo vazio. Uma obra-prima artística e emocional.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/6/66/ShadowOfTheColossusGH.jpg/330px-ShadowOfTheColossusGH.jpg",
     "data_criacao": "2005",
-    "link": "https://git-scm.com/",
+    "link": "https://pt.wikipedia.org/wiki/Shadow_of_the_Colossus",
     "tags": [
-      "Controle de Versão",
-      "Ferramenta",
-      "Desenvolvimento",
-      "DevOps"
+      "PS2",
+      "Ação-Aventura",
+      "Minimalismo",
+      "Team Ico"
     ]
   },
   {
-    "nome": "TensorFlow",
-    "descricao": "Plataforma open-source para machine learning, desenvolvida pelo Google, amplamente utilizada para construir e treinar modelos de Deep Learning.",
-    "data_criacao": "2015",
-    "link": "https://www.tensorflow.org/",
+    "nome": "Star Wars: Knights of the Old Republic",
+    "descricao": "Um RPG massivo que estabeleceu um novo padrão para histórias de Star Wars, apresentando uma escolha moral complexa e um dos plot twists mais famosos da história dos videogames.",
+    "imagem": "https://bdjogos.com.br/capas/23102017233546-star-wars-knights-old-republic-xbox-cover.jpg",
+    "data_criacao": "2003",
+    "link": "https://pt.wikipedia.org/wiki/Star_Wars:_Knights_of_the_Old_Republic",
     "tags": [
-      "Machine Learning",
-      "Deep Learning",
-      "Inteligência Artificial",
-      "Biblioteca"
+      "Xbox",
+      "RPG",
+      "BioWare",
+      "Sci-Fi"
     ]
   },
   {
-    "nome": "Solidity",
-    "descricao": "Linguagem de programação orientada a contratos para escrever Smart Contracts, usada principalmente na plataforma Ethereum e outras blockchains compatíveis com EVM.",
-    "data_criacao": "2014",
-    "link": "https://docs.soliditylang.org/",
+    "nome": "Metroid Prime",
+    "descricao": "Transformou a franquia Metroid em primeira pessoa, mantendo a exploração e os elementos 'Metroidvania'. É frequentemente citado como o auge da inovação no GameCube.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/d/df/Metroid_Prime_capa.png/330px-Metroid_Prime_capa.png",
+    "data_criacao": "2002",
+    "link": "https://pt.wikipedia.org/wiki/Metroid_Prime",
     "tags": [
-      "Linguagem de Programação",
-      "Blockchain",
-      "Smart Contracts",
-      "Ethereum"
+      "GameCube",
+      "FPS",
+      "Exploração",
+      "Nintendo"
+    ]
+  },
+  {
+    "nome": "God of War",
+    "descricao": "Inspirado na mitologia grega, Kratos, o protagonista, foi desenhado para ser anti-herói brutal e vingativo. O jogo foi crucial para popularizar os 'Hack and Slash' no PS2.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/5/53/God_of_War_2005_capa.png/330px-God_of_War_2005_capa.png",
+    "data_criacao": "2005",
+    "link": "https://pt.wikipedia.org/wiki/God_of_War_(jogo_eletr%C3%B4nico_de_2005)",
+    "tags": [
+      "PS2",
+      "Hack and Slash",
+      "Mitologia",
+      "Ação"
+    ]
+  },
+  {
+    "nome": "Final Fantasy X",
+    "descricao": "O primeiro Final Fantasy a apresentar dublagem completa para seus personagens, um marco que gerou críticas mistas inicialmente, mas foi fundamental para a imersão da história de Spira e Tidus.",
+    "imagem": "https://m.media-amazon.com/images/I/91rQrZ+BRHL._AC_UF1000,1000_QL80_.jpg",
+    "data_criacao": "2001",
+    "link": "https://pt.wikipedia.org/wiki/Final_Fantasy_X",
+    "tags": [
+      "PS2",
+      "JRPG",
+      "Turn-Based",
+      "Square Enix"
+    ]
+  },
+  {
+    "nome": "Burnout 3: Takedown",
+    "descricao": "Reinventou a série de corrida focando agressivamente em colisões e destruição (Takedowns). O modo 'Crash' se tornou um minigame viciante, onde o objetivo era causar o máximo de prejuízo.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/d/d9/Burnout_3_-_Takedown.jpg/250px-Burnout_3_-_Takedown.jpg",
+    "data_criacao": "2004",
+    "link": "https://pt.wikipedia.org/wiki/Burnout_3:_Takedown",
+    "tags": [
+      "Corrida Arcade",
+      "PS2",
+      "Destruição",
+      "Xbox"
+    ]
+  },
+  {
+    "nome": "Okami",
+    "descricao": "Um dos jogos mais visualmente distintivos da geração, usando um estilo de arte sumi-e (pintura a tinta japonesa) e jogabilidade baseada na deusa Amaterasu e seu 'Pincel Celestial'.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/3/3a/%C5%8Ckami_-_North-american_cover_for_PlayStation_2.jpg/250px-%C5%8Ckami_-_North-american_cover_for_PlayStation_2.jpg",
+    "data_criacao": "2006",
+    "link": "https://pt.wikipedia.org/wiki/Okami",
+    "tags": [
+      "PS2",
+      "Ação-Aventura",
+      "Clover Studio",
+      "Folclore Japonês"
+    ]
+  },
+  {
+    "nome": "Super Smash Bros. Melee",
+    "descricao": "Considerado o auge competitivo da série. Sua jogabilidade rápida e técnicas avançadas (como 'Wave Dashing') cimentaram sua posição como um dos jogos de luta mais jogados e assistidos até hoje.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/a/a6/Super_Smash_Bros._Melee.jpg/250px-Super_Smash_Bros._Melee.jpg",
+    "data_criacao": "2001",
+    "link": "https://pt.wikipedia.org/wiki/Super_Smash_Bros._Melee",
+    "tags": [
+      "GameCube",
+      "Luta",
+      "Multiplayer",
+      "Competitivo"
+    ]
+  },
+  {
+    "nome": "Devil May Cry",
+    "descricao": "Originalmente concebido como Resident Evil 4, foi desviado para um novo projeto devido à sua natureza excessivamente voltada para a ação. Criou o subgênero de 'combate estiloso'.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/1/1e/DMC1FrontCover.jpg",
+    "data_criacao": "2001",
+    "link": "https://pt.wikipedia.org/wiki/Devil_May_Cry",
+    "tags": [
+      "PS2",
+      "Hack and Slash",
+      "Ação",
+      "Capcom"
+    ]
+  },
+  {
+    "nome": "Prince of Persia: The Sands of Time",
+    "descricao": "Revitalizou a franquia com a introdução da mecânica de 'rebobinar o tempo', que permitia corrigir erros de plataforma e combate instantaneamente, tornando a movimentação fluida e perdoável.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/8/85/Prince-of-Persia-The-Sands-of-Time-Cover.jpg/250px-Prince-of-Persia-The-Sands-of-Time-Cover.jpg",
+    "data_criacao": "2003",
+    "link": "https://pt.wikipedia.org/wiki/Prince_of_Persia:_The_Sands_of_Time",
+    "tags": [
+      "Ação-Aventura",
+      "Plataforma",
+      "Mecânica de Tempo",
+      "Multiplataforma"
+    ]
+  },
+  {
+    "nome": "Tom Clancy's Splinter Cell",
+    "descricao": "Definiu a jogabilidade de stealth no Xbox, focando na escuridão e na luz como elementos de jogo cruciais. Sam Fisher se tornou o principal rival de Solid Snake.",
+    "imagem": "https://m.media-amazon.com/images/I/61+4TTzkXiL._AC_UF1000,1000_QL80_.jpg",
+    "data_criacao": "2002",
+    "link": "https://pt.wikipedia.org/wiki/Tom_Clancy%27s_Splinter_Cell",
+    "tags": [
+      "Xbox",
+      "Stealth",
+      "Espionagem",
+      "Third Person Shooter"
+    ]
+  },
+  {
+    "nome": "Kingdom Hearts",
+    "descricao": "Uma improvável mas bem-sucedida fusão dos universos da Disney e Final Fantasy, que introduziu um complexo sistema de combate RPG de ação.",
+    "imagem": "https://m.media-amazon.com/images/I/918AUL+i-DL.jpg",
+    "data_criacao": "2002",
+    "link": "https://pt.wikipedia.org/wiki/Kingdom_Hearts",
+    "tags": [
+      "PS2",
+      "Ação-RPG",
+      "Disney",
+      "Square Enix"
+    ]
+  },
+  {
+    "nome": "SSX Tricky",
+    "descricao": "Um jogo de snowboard arcade que se destacou por seus 'Over the Top Tricks' e uma trilha sonora memorável, incluindo 'It's Tricky' do Run DMC.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/6/6a/SSX_Tricky.jpg",
+    "data_criacao": "2001",
+    "link": "https://pt.wikipedia.org/wiki/SSX_Tricky",
+    "tags": [
+      "Esportes radicais",
+      "Arcade",
+      "PS2",
+      "GameCube"
+    ]
+  },
+  {
+    "nome": "Psychonauts",
+    "descricao": "Um cult classic de plataforma que explora a mente humana e distúrbios psicológicos (como paranoia e medo da água) através de mundos criativos e surrealistas. O primeiro grande sucesso de Tim Schafer.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/b/bb/Psychonauts.jpg",
+    "data_criacao": "2005",
+    "link": "https://pt.wikipedia.org/wiki/Psychonauts",
+    "tags": [
+      "PS2",
+      "Plataforma 3D",
+      "Cult Classic",
+      "Xbox"
+    ]
+  },
+  {
+    "nome": "Silent Hill 2",
+    "descricao": "Amplamente aclamado pela sua profundidade psicológica e simbolismo denso, focando menos em sustos e mais na culpa e no trauma de seu protagonista, James Sunderland. O monstro Pyramid Head é icônico.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/a/ae/Silent_Hill_2_capa.png?20200320023655",
+    "data_criacao": "2001",
+    "link": "https://pt.wikipedia.org/wiki/Silent_Hill_2",
+    "tags": [
+      "Survival Horror",
+      "PS2",
+      "Terror Psicológico",
+      "Konami"
+    ]
+  },
+  {
+    "nome": "Fable",
+    "descricao": "Famoso por prometer um sistema de moralidade e escolhas profundas, permitindo que o personagem envelhecesse e fosse alterado fisicamente por suas ações, mesmo que algumas promessas de Peter Molyneux não se concretizaram.",
+    "imagem": "data:image/jpeg;base64,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",
+    "data_criacao": "2004",
+    "link": "https://pt.wikipedia.org/wiki/Fable_(jogo_eletr%C3%B4nico)",
+    "tags": [
+      "Xbox",
+      "RPG de Ação",
+      "Moralidade",
+      "Lionhead Studios"
+    ]
+  },
+  {
+    "nome": "Beyond Good & Evil",
+    "descricao": "Um jogo de ação-aventura com foco em fotografia e jornalismo investigativo, aclamado pela crítica mas que fracassou comercialmente, ganhando status de cult classic.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/BGE-cover.jpg/250px-BGE-cover.jpg",
+    "data_criacao": "2003",
+    "link": "https://en.wikipedia.org/wiki/Beyond_Good_%26_Evil_(video_game)",
+    "tags": [
+      "Ação-Aventura",
+      "Ubisoft",
+      "Cult Classic",
+      "GameCube"
+    ]
+  },
+  {
+    "nome": "Pikmin",
+    "descricao": "Um jogo de estratégia em tempo real da Nintendo que usa criaturas minúsculas (Pikmin) para resolver puzzles e enfrentar perigos. Foi aclamado por seu design único e inovador.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/8/89/Pikmin_cover_art_%282%29.jpg",
+    "data_criacao": "2001",
+    "link": "https://pt.wikipedia.org/wiki/Pikmin",
+    "tags": [
+      "GameCube",
+      "Estratégia RTS",
+      "Nintendo",
+      "Puzzle"
+    ]
+  },
+  {
+    "nome": "Jade Empire",
+    "descricao": "Um RPG da BioWare exclusivo do Xbox focado em combate marcial em um cenário de fantasia inspirado na mitologia chinesa. É conhecido por seu sistema de 'Caminho Aberto' versus 'Caminho Fechado' (moralidade).",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/9/95/Jade_Empire.png/250px-Jade_Empire.png",
+    "data_criacao": "2005",
+    "link": "https://pt.wikipedia.org/wiki/Jade_Empire",
+    "tags": [
+      "Xbox",
+      "RPG",
+      "BioWare",
+      "Ação"
+    ]
+  },
+  {
+    "nome": "Ratchet & Clank: Up Your Arsenal",
+    "descricao": "O auge da trilogia original, misturando elementos de plataforma e tiro com um arsenal vasto e cômico, solidificando o PS2 como o lar dos jogos de plataforma 3D.",
+    "imagem": "https://cdn11.bigcommerce.com/s-ymgqt/images/stencil/1280x1280/products/20768/25096/ratchet_clank_arsenal__47593.1713031907.jpg?c=2",
+    "data_criacao": "2004",
+    "link": "https://pt.wikipedia.org/wiki/Ratchet_%26_Clank:_Up_Your_Arsenal",
+    "tags": [
+      "PS2",
+      "Plataforma",
+      "Third Person Shooter",
+      "Insomniac Games"
     ]
   }
 ]

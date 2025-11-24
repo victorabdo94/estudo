@@ -16,6 +16,9 @@ body {
     background: var(--bg-color); /* Define a cor de fundo usando a variável --bg-color. */
     color: var(--secondary-color); /* Define a cor do texto padrão usando a variável --secondary-color. */
     font-family: "Quicksand", sans-serif; /* Define a família da fonte para Quicksand, com sans-serif como alternativa. */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -89,23 +92,43 @@ div input:focus {
 }
 
 main {
-    overflow-y: scroll; /* Adiciona uma barra de rolagem vertical se o conteúdo for maior que a área visível. */
     max-width: 80rem; /* Define a largura máxima do conteúdo principal. */
     margin: 0 auto; /* Centraliza o conteúdo principal horizontalmente na página. */
     margin-top: 2rem; /* Adiciona uma margem no topo para separar do cabeçalho. */
-    height: calc(100vh - 10rem - 4rem); /* Calcula a altura para preencher o espaço restante da tela (altura da viewport - altura do header - altura do footer). */
+    padding: 0 1rem; /* Adiciona espaçamento lateral para o conteúdo. */
+    flex-grow: 1;
 }
 
 article {
+    display: flex; /* Habilita o layout flexbox para alinhar a imagem e o conteúdo lado a lado. */
+    gap: 1.5rem; /* Adiciona um espaçamento entre a imagem e o bloco de texto. */
     background: none; /* Define o fundo como transparente. */
     border-radius: 0; /* Remove o arredondamento das bordas. */
-    padding: 0; /* Reseta o espaçamento interno. */
     padding: 0 1rem; /* Adiciona espaçamento interno horizontal. */
     margin-bottom: 1.25rem; /* Adiciona uma margem na parte inferior para separar os artigos. */
     box-shadow: none; /* Remove qualquer sombra do artigo. */
     transition: background-color 0.3s ease, border-bottom-color 0.3s ease; /* Adiciona uma transição suave para o fundo e a borda. */
     border-bottom: 1px solid var(--bg-color); /* Adiciona uma linha sutil na parte inferior do artigo. */
     padding-bottom: 1.5rem; /* Adiciona espaçamento interno na parte inferior. */
+}
+
+.card-imagem {
+    flex: 0 0 150px; /* Define que o container da imagem não crescerá, não encolherá e terá 150px de largura. */
+    height: 150px; /* Define uma altura fixa para o container da imagem. */
+}
+
+.card-imagem img {
+    width: 100%; /* Faz a imagem ocupar 100% da largura do seu container. */
+    height: 100%; /* Faz a imagem ocupar 100% da altura do seu container. */
+    object-fit: cover; /* Garante que a imagem cubra todo o espaço, cortando o excesso se necessário. */
+    border-radius: 8px; /* Arredonda as bordas da imagem. */
+}
+
+.card-conteudo {
+    flex: 1; /* Permite que o container de conteúdo ocupe o espaço restante. */
+    display: flex; /* Habilita o flexbox para organizar o texto. */
+    flex-direction: column; /* Organiza os itens de texto em uma coluna. */
+    justify-content: center; /* Centraliza o conteúdo de texto verticalmente. */
 }
 
 article:hover {
@@ -146,10 +169,43 @@ article a:hover {
     text-decoration: underline; /* Adiciona um sublinhado ao passar o mouse sobre o link. */
 }
 
+.paginacao-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.paginacao-container button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--tertiary-color);
+    background-color: var(--bg-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.paginacao-container button:hover {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    border-color: var(--primary-color);
+}
+
+.paginacao-container button.active {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    border-color: var(--primary-color);
+    cursor: default;
+    box-shadow: 0 0 0 0.1rem var(--primary-color);
+}
+
 .footer {
-    position: absolute; /* Define o posicionamento como absoluto. */
-    bottom: 0; /* Alinha o rodapé na parte inferior da página. */
-    left: 0; /* Alinha o rodapé à esquerda da página. */
+    margin-top: auto;
     width: 100%; /* Faz o rodapé ocupar 100% da largura da página. */
     color: var(--tertiary-color); /* Define a cor do texto do rodapé. */
     background-color: var(--bg-color); /* Define a cor de fundo do rodapé. */
@@ -197,10 +253,6 @@ article a:hover {
         font-size: 1.2rem; /* Reduz o tamanho da fonte do input. */
     }
 
-    main { /* Estiliza a seção principal para telas menores. */
-        padding: 0 1rem; /* Adiciona espaçamento lateral para o conteúdo. */
-    }
-
     article:hover { /* Estiliza o hover do artigo em telas menores. */
         transform: none; /* Remove o efeito de zoom para evitar problemas de layout em dispositivos móveis. */
     }
@@ -228,6 +280,16 @@ article a:hover {
         justify-content: center; /* Centraliza os itens horizontalmente. */
         flex-direction: column; /* Organiza os itens em uma coluna. */
         gap: 0.5rem; /* Define um espaçamento de 0.5rem entre os itens. */
+    }
+
+    article {
+        flex-direction: column; /* Organiza a imagem e o texto em uma coluna em telas pequenas. */
+        align-items: center; /* Centraliza os itens do card. */
+        text-align: center; /* Centraliza o texto dentro do card. */
+    }
+
+    .card-imagem {
+        margin-bottom: 1rem; /* Adiciona espaço entre a imagem e o texto. */
     }
 
     .footer { /* Estiliza o rodapé para telas muito pequenas. */
